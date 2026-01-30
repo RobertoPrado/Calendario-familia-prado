@@ -14,6 +14,17 @@
   </style>
 </head>
 <body>
+  <script>
+    (function(){
+      const senha = "251914";
+      const tentativa = prompt("Acesso restrito. Digite a senha:");
+      if (tentativa !== senha) {
+        document.body.innerHTML = "";
+        alert("Senha incorreta.");
+        return;
+      }
+    })();
+  </script>
   <div class="card">
     <h1>Calendário Família Prado</h1>
     <p>Portal em construção. Este é um teste de acesso externo.</p>
